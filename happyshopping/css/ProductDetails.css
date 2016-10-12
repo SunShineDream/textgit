@@ -1,0 +1,115 @@
+.product-show{height: 674px;}
+.show-top{ line-height: 62px;}
+.show-top a {  color: #666666}
+.show-top a:hover {  color: #e10482}
+.show-top span{color: #999;}
+.show-box{width: 100%; height:565px; }
+.show-img{width: 490px; height:565px; float: left}
+.big-img{border: 1px solid #efefef; border-radius: 5px; overflow: hidden;width: 490px; height: 490px;position: relative }
+.bigbig{width: 490px; height: 490px;}
+.big-img p{position: absolute;right:35px; bottom:22px;}
+.big-img p i{ width: 16px; height: 16px; background: url("../img/product_detail_sprite.png") no-repeat -118px -53px; display: block; float: left; margin-right: 5px;}
+.big-img p:hover i{ background-position: -138px -53px; }
+
+.img-footer{width: 490px; height: auto;}
+.detail-img{ margin-top: 12px;}
+.detail-img li{float: left; margin-right: 12px; border: 1px solid #efefef; border-radius: 5px; overflow: hidden;}
+.detail-img li img{width: 60px; height: 60px;}
+.detail-img .black {border-color:#000000; }
+
+.share{float: right; margin-top: 20px; width: 120px; height: 30px; position: relative;}
+.share a{margin: 0 3px; }
+.share-weixin{color: #90bd51;}
+.share-weibo{color: #e96675;}
+.share-qq{color: #f4b43d;}
+.weixin-code{width: 126px; height: 123px; border: 1px solid #efefef;   position: absolute;top:-130px; right: 20px; z-index: 2; text-align: center; padding-top: 3px;}
+
+.show-info{width: 460px; height: 500px; float: right; margin-top: -10px; position: relative;}
+.info-title{line-height: 60px; width:460px; height: 60px;}
+.info-title h2{float: left;width: 380px; }
+.title-cuntry{width: 38px; height: 38px; float: right; margin-top: 10px;}
+.title-cuntry img {width: 38px; height: 38px;}
+.info-describe{ font-size: 15px; line-height: 24px;  width:440px; height: 106px; ; margin-top: 10px;}
+
+.info-price{color:#e10482; font-size: 18px; }
+.info-price span{font-size: 30px;}
+.official-price{font-size: 14px; line-height: 22px; color: #999; margin-bottom: 8px;}
+.official-price span{text-decoration: line-through;}
+.info-red{font-size: 14px; line-height: 20px; margin-bottom: 10px;}
+.info-red span{padding:0 10px; background-color:#e10482; border-radius: 5px; color: #ffffff; margin-right: 10px; line-height: 20px; display: inline-block}
+.where-form{line-height: 50px; border-bottom: 1px solid #000000; font-size: 14px;}
+
+.info-count{height: 32px;width: 100%; margin-top: 10px; font-size: 14px; line-height: 30px; margin-bottom: 10px; }
+.info-count p{float: left; }
+.info-count-num{float: left; border:1px solid #cccccc; border-radius: 5px; overflow: hidden;  font-size: 0; vertical-align: top;}
+.info-count-num a{width: 29px; height: 30px; display: inline-block; text-align: center;font-size: 14px;vertical-align: top;}
+.info-count-num input{width: 48px; border-left:1px solid #cccccc;border-right:1px solid #cccccc; height: 30px; text-align: center;  font-size: 14px;vertical-align: top;}
+.info-btn{height: 50px;}
+.info-btn a{padding-left: 25px; width:145px; height: 50px;  display: inline-block;
+line-height: 50px; font-size: 18px; margin-right: 20px;}
+.info-btn a span{ height: 50px;  display: block;  color: #ffffff;}
+.btn-buy{background: url("../img/btn.png") no-repeat 0 -751px;}
+.btn-buy span{background: url("../img/btn.png") no-repeat  -145px -700px;padding-left: 20px;width:125px;}
+.btn-buy:hover{background-position:0 -853px;}
+.btn-buy:hover span{background-position: -145px -802px;}
+
+.cut-num{background-color: #eee}
+.btn-add{background: url("../img/btn.png") no-repeat 0 -153px; position: relative;}
+.add-cart-img{width: 30px;height: 30px; border-radius: 50%; position: absolute;left: 10px; top:-30px; border: 1px #e10482 solid;z-index: 3;}
+.btn-add span{background: url("../img/btn.png") no-repeat  -145px -102px;width:145px;}
+.btn-add span i{font-size: 22px; margin-right: 5px;}
+.btn-add:hover{background-position:0 -51px;}
+.btn-add:hover span{background-position: -145px 0;}
+.tax{position: absolute;right: 0; top:180px;}
+.tax-value{position: absolute;top:20px; left: -310px; width: 335px; height: auto; background-color: #fff; padding: 10px; line-height: 20px; border:1px solid #cccccc;  border-radius: 5px;}
+.tax-rule{color: #e10482; float: right;}
+.tax a:hover{text-decoration: underline;}
+/*商品具体介绍*/
+.commodity{height: auto; padding-top: 30px; overflow: hidden;padding-bottom: 20px;}
+.introduce{ height: auto;}
+.introduce-left{ width: 240px; height: auto; float: left; }
+.introduce-right{width: 720px; height: auto; float: right; }
+.hot-product{ margin-bottom: 30px;}
+.hot-product .hot-tuijian{ font-size: 16px; line-height: 36px; font-weight: 700; border-bottom:2px solid #000000; }
+.hot-list{width: 200px; height: auto; padding: 0 20px; border-bottom:1px solid #cccccc;background-color: #fff;}
+.hot-list li{width: 200px;height:65px; border-bottom:1px solid #cccccc;  padding: 20px 0;   }
+.hot-list .hot-list-end{border: none;}
+.hot-list li a img{width: 64px; height: 64px; float: left; margin-right: 10px;}
+.hot-name{height: 40px ; line-height: 20px; font-size: 14px; overflow:hidden; }
+.hot-pric{line-height: 30px; color:#e10482;font-size: 14px; }
+
+.intro-title { width: 720px; height:36px; font-size: 16px; line-height: 36px;border-bottom:2px solid #000000; }
+.intro-title li{float: left; margin-left: 50px;}
+.intro-title li:hover a{color:  #e10482; border-bottom: 3px #e10482 solid; line-height: 35px; display: block}
+.pink a{color:  #e10482; border-bottom: 3px #e10482 solid; line-height: 35px; display: block}
+
+.information{height: auto; background-color: #fff;  text-align: center }
+.information-main{width: 680px;height: 421px; padding: 20px; position: relative;}
+.parameter{height: 26px;width: 100%; background: url("../img/product_detail_sprite.png") no-repeat 0 -169px; margin: 20px 0;}
+.describe{height: 26px;width: 100%; background: url("../img/product_detail_sprite.png") no-repeat 0 -195px; margin: 20px 0;}
+.information-list{text-align: left;width: 350px; height: auto ; font-size: 14px;}
+.information-list li{width: 350px; height: auto ; line-height: 29px; clear: both;text-align: right;}
+.information-list li span{width: 250px; line-height: 29px; float: right ;text-align: left; padding-left: 4px;}
+.introduce-tupian{position: absolute; top:110px; right: 100px;}
+.introduce-tupian img{ width: 180px; height: 180px ;}
+.information-image{width: 720px; height: auto}
+.information-image img{width: 720px; height: auto}
+
+
+/*用户留言*/
+.user-show{width: 620px; height: auto;background-color: #ffffff; padding:0 50px 130px 50px; }
+.user-show ul{width: 720px; height: auto;}
+.every-show{padding:30px 0 20px 0; width: 620px; height: auto;overflow: hidden; border-bottom: 1px solid #eeeeee;}
+.every-show img{width: 60px; height: 60px; float: left; margin-right: 20px;border-radius:50%}
+.user-detail { float: left; margin-top:5px; }
+.user-detail h3{font-weight: 100;}
+.user-detail h3 span{margin-left: 20px; color: #999; line-height: 30px;}
+.host-show{clear: both; margin-left: 80px; width: 456px; height: auto;}
+.host-show img{width: 40px; height: 40px; float: left; margin-right: 20px; border-radius:50% ;
+margin-top: 10px;}
+
+.host-show h3{font-weight: 100;}
+.host-show h3 span{margin-left: 20px; color: #999; line-height: 30px;}
+.host-r{width: 360px; float: left ;height: auto;}
+.every-img{position: relative;}
+.start{position:absolute;top:45px;left:40px;width: 22px; height: 18px; background: url("../user/baoshi.png") no-repeat 0 0;}

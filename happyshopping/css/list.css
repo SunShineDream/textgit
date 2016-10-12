@@ -1,0 +1,45 @@
+.middle{ height: auto; background-color: #f5f5f5;  overflow: hidden;}
+.list-homepage{line-height: 44px;color: #666;}
+.list-homepage a{color:#e10482; text-decoration: underline;}
+
+.list-classify{height: auto; background-color: #ffffff; border-radius:5px; overflow: hidden; }
+.list-classify .goodlist-name{line-height: 38px; padding-left: 22px; background-color: #dddddd;}
+.list-classify p span{color:#e10482;}
+
+.list-top li{line-height: 40px; padding-left: 45px;}
+.list-top li a{padding:0 10px;color: #666666}
+.list-top li a:hover{color:#e10482;}
+
+.Classification1{border-bottom: 1px solid #dddddd;}
+.Classification2{overflow: hidden;}
+.Classification2 .paizi{width: 58px; float: left; text-align: left ;}
+.brand{width: 920px; height: auto; float: left}
+.Classification3{width: 100%;}
+.list-more{float: right; width: 100px; height: auto; color:#666; }
+
+.goods-sort{height: 40px; background-color: #fff; margin-top: 20px; border-radius:5px;line-height: 40px; overflow: hidden; margin-bottom: 20px;}
+.goods-sort p{float: left; margin-left: 45px; }
+.goods-sort a{ width:54px; height: 30px; border: 1px solid #e10482; display: inline-block;line-height:30px;margin : 4px 10px 0 5px;position: relative; padding-left: 20px; }
+.goods-sort .abgin{text-align: center;padding-left: 0;  width:74px;}
+.goods-sort a i{ background: url("../img/updown.png") no-repeat center;}
+.goods-sort .updown{background-position: 0 0;width: 10px; height: 12px; display: inline-block; position: absolute; top:10px; left: 47px;}
+/*商品列表*/
+.main-product{height: auto; background-color: #fff; width: 1208px; margin: 0 auto 20px; overflow: hidden; }
+.product-item{width: 285px; height: 426px ;border: 1px solid #f0f0f0; margin: 7px; float: left; border-radius:5px; position: relative;}
+.img-div{width: 280px; height: 270px;overflow: hidden;}
+.img-div img{width: 270px; height: 270px;}
+.country-img{width: 25px; height: 25px;}
+.country span{line-height: 25px;padding-left: 3px;}
+.product-name{width: 100%;}
+
+.specific-infor{width: 240px;height: 147px; margin:10px auto; }
+.product-name{font-size: 20px; font-weight: 100; height: 54px; margin-top: 6px;line-height: 27px; height: 54px; width: 240px;}
+.product-name a{color: #000000;}
+.product-value{font-size: 14px;font-weight: 100;color: #e10482; margin-top: 14px;}
+.product-value i{font-size: 21px;}
+.before-value{color: #999999; line-height: 20px; text-decoration: line-through;}
+.now-buy{width:60px;height:64px;position: absolute;right: 20px;bottom: -10px;  background: url("../img/comm_bg_sprite.png") no-repeat -72px -111px;}
+.product-item:hover .now-buy{background-position: -133px -111px;}
+.product-item:hover .img-div img{transform: scale(1.1);transition: .5s;opacity: .9}
+.product-item:hover {box-shadow: 0 0 10px #999;}
+.pro-a{ width: 287px; height: 428px}
